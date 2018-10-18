@@ -60,8 +60,10 @@ $configPistarRelease = parse_ini_file($pistarReleaseConfig, true);
   echo ' <a href="/admin/live_modem_log.php" style="color: #ffffff;">'.$lang['live_logs'].'</a> |'."\n";
   echo ' <a href="/admin/power.php" style="color: #ffffff;">'.$lang['power'].'</a> |'."\n";
   echo ' <a href="/admin/update.php" style="color: #ffffff;">'.$lang['update'].'</a> |'."\n";
+
   } ?>
  <a href="/admin/configure.php" style="color: #ffffff;"><?php echo $lang['configuration'];?></a>
+ <a href="/admin/mode.php" style="color: #ffffff;"><?php echo 'lalala';?></a>
 </p>
 </div>
 
@@ -239,7 +241,7 @@ Pi-Star / Pi-Star Dashboard, &copy; Andy Taylor (MW0MWZ) 2014-<?php echo date("Y
 ircDDBGateway Dashboard by Hans-J. Barthen (DL5DI),<br />
 MMDVMDash developed by Kim Huebel (DG9VH), <br />
 Need help? Click <a style="color: #ffffff;" href="https://www.facebook.com/groups/pistar/" target="_new">here for the Facebook Group</a><br />
-or Click <a style="color: #ffffff;" href="https://forum.pistar.uk/" target="_new">here to join the Support Forum</a><br />	
+or Click <a style="color: #ffffff;" href="https://forum.pistar.uk/" target="_new">here to join the Support Forum</a><br />
 Get your copy of Pi-Star from <a style="color: #ffffff;" href="http://www.pistar.uk/downloads/" target="_new">here</a>.<br />
 </div>
 
